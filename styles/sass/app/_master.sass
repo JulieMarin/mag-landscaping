@@ -1,0 +1,116 @@
+@font-face
+  font-family: "SouthbankLT"
+  src: url('../../../fonts/SouthbankLT.ttf')
+
+@font-face
+  font-family: 'Dense-Regular'
+  src: url('../../../fonts/Dense-Regular.otf')
+  font-weight: normal
+  font-style: normal
+
+h1, h2, h3, h4
+  letter-spacing: 2px
+  font-family: 'Dense-Regular' !important
+  text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.15)
+
+.pad-l-05
+  padding-left: 0.5rem
+.pad-l-1
+  padding-left: 1rem
+.pad-tb-1
+  padding-top: 1rem
+  padding-bottom: 1rem
+.pad-bottom-1
+  padding-bottom: 1rem
+.pad-bottom-2
+  padding-bottom: 2rem
+.pad-bottom-3
+  padding-bottom: 3rem
+.margin-bottom-1
+  margin-bottom: 1rem
+.margin-bottom-2
+  margin-bottom: 2rem
+.margin-bottom-3
+  margin-bottom: 3rem
+
+
+.is-flex-row-centered
+  display: flex
+  flex-direction: row
+  align-items: center
+
+.is-flex-zeroed
+  display: flex
+  justify-content: center
+  align-items: center
+
+.has-text-swamp-green
+  color: $swamp-green
+
+.has-dotted-border
+  border-bottom: dashed 1px grey
+
+// LANDING
+.hero
+  background: linear-gradient($image-tint, $image-tint), url('../../../images/hero.jpg')
+  background-size: cover
+  h1.title
+    font-size: 5rem
+  h2.subtitle
+    font-size: 3rem
+  .navbar-item
+    padding: 1.5rem 0.75rem
+  .navbar-burger
+    background: rgba(0, 0, 0, 0.2)
+    margin-left: 0
+
+.clean-service
+  svg
+    color: $swamp-green
+  li
+    padding-top: 0.5rem
+    padding-bottom: 0.5rem
+
+.lawn-care
+  background: linear-gradient($image-tint, $image-tint), url('../../../images/leaves.png')
+  height: 200px
+
+.lawn-design
+  background: linear-gradient($image-tint, $image-tint), url('../../../images/leaves.png')
+  height: 200px
+
+.maintenance
+  background: linear-gradient($image-tint, $image-tint), url('../../../images/lawnmower.jpg')
+  height: 200px
+
+.instagram-feed
+  padding-left: 0
+  padding-right: 0
+
+.contact-form
+  .button.is-link
+    background-color: $swamp-green
+    border-radius: 2px
+  .input
+    border-radius: 2px !important
+    // border-color: $swamp-green !important
+    // border-width: 2px
+    &:focus
+      border-color: $swamp-green !important
+  .label
+    font-size: 1.5rem
+    letter-spacing: 2px
+    font-family: 'Dense-Regular' !important
+
+footer
+  padding: 1rem
+  background: rgba(0,0,0, .8)
+  color: white
+  img
+    max-width: 100px
+
+.eapps-instagram-feed-title.eapps-instagram-feed-title-visible
+  font-family: 'Dense-Regular' !important
+  text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.4)
+  font-size: 2rem
+  letter-spacing: 2px

@@ -1,0 +1,45 @@
+section.hero.is-fullheight(data-stellar-background-ratio="0.5")
+  .hero-head
+    header.navbar
+      .container
+        .navbar-brand
+          a.navbar-item
+            img(src='../images/mag-logo.png', alt='Logo')
+        .navbar-menu
+          .navbar-end
+            span.navbar-item
+              a.is-flex-row-centered.has-text-white.is-size-5
+                span Contact Us For A Quote
+                span.icon.pad-l-05
+                  i.fa.fa-comment
+            span.navbar-item
+              .is-flex-row-centered.has-text-white.is-size-5
+                span 203.906.8259 
+                span.icon.pad-l-05
+                  i.fa.fa-phone        
+    header#menu-alt.navbar.is-fixed-top(style='display:none;')
+      .container
+        .navbar-brand
+          span.navbar-burger.burger.has-text-white(data-target='navbarMenuHeroC')
+            span
+            span
+            span
+        #navbarMenuHeroC.navbar-menu.is-active
+          .navbar-end
+            a.navbar-item.is-active
+              | Home
+            a.navbar-item
+              | Examples
+            a.navbar-item
+              | Documentation
+
+  
+  .hero-body
+    .container.has-text-centered
+      h1.title.has-text-white
+        | PROFESSIONAL LAWN CARE SERVICE
+      h2.subtitle.has-text-white
+        | - 100% GUARANTEED -
+  .hero-foot.has-text-white
+    .container.has-text-centered.pad-tb-1
+      i.fa.fa-chevron-down.is-size-2

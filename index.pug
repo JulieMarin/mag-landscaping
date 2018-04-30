@@ -1,0 +1,113 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title MAG Landscaping LLC
+    link(rel='stylesheet', href='../styles/css/app/all.css')
+    script(defer='', src='https://use.fontawesome.com/releases/v5.0.7/js/all.js')
+    script(src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous")
+    script(src='../js/stellar/jquery.stellar.min.js')
+    script(src='../js/master.js')
+    script(src="../js/instashow/elfsight-instagram-feed.js")
+
+  body.has-background-light
+    include _hero.pug
+    section.section.clean-service
+      .container
+        h1.has-text-centered.has-text-weight-semibold.is-size-3.has-dotted-border.margin-bottom-3
+          | YOUR TRUSTED LANDSCAPERS
+        .container  
+          .columns
+            .column.is-10.is-offset-1
+              p Senserit quem admodum. Mentitum eram quorum ad quorum, in noster cohaerescant. Eram singulis ad fidelissimae.Illum et nostrud. Probant minim noster arbitror illum a aliqua philosophari expetendis tamen mandaremus te admodum eram legam nescius export, labore et incurreret eu velit. Quamquam o multos ea irure in mandaremus se malis. O singulis instituendarum qui eram admodum proident.
+    section.section.clean-service
+      .container
+        h1.has-text-centered.has-text-weight-semibold.is-size-3.has-dotted-border.margin-bottom-3
+          | SERVICES
+        .container
+          .columns
+            .column.is-10.is-offset-1
+              .columns
+                .column
+                  h2.title.has-text-centered.pad-l
+                    i.fa.fa-sun.has-text-swamp-green
+                    span.pad-l-05 Spring                  
+                  ul.fa-ul
+                    li
+                      span.fa-li
+                        i.fas.fa-check
+                      | Blowing leaves, needles, debris from lawn and garden areas (leaves are bagged or blown into piles and left for town pick-up)
+                    li
+                      span.fa-li
+                        i.fas.fa-check
+                      | Garden clean-up: edging, pruning, cutting back perennials that were not cut back last fall
+                    li
+                      span.fa-li
+                        i.fas.fa-check
+                      | Bundling of downed branches, pick up of sticks, cones, needles, etc.
+                    li
+                      span.fa-li
+                        i.fas.fa-check
+                      | Blowing off all hardscape areas     
+                .column
+                  h2.title.has-text-centered
+                    i.fa.fa-leaf.has-text-swamp-green
+                    span.pad-l-05 Fall
+                  ul.fa-ul
+                    li
+                      span.fa-li
+                        i.fas.fa-check
+                      | Blowing leaves, needles and cones from lawn, garden beds and hardscape areas
+                    li
+                      span.fa-li
+                        i.fas.fa-check
+                      | Cutting back any remaining plant material / cleaning up plant material and soil from planters where needed            
+
+    section.section.is-flex-zeroed.maintenance(data-stellar-background-ratio="0.5")
+      h2.title.has-text-white.is-size-1 Gallery       
+      
+    section.section.instagram-feed
+      script(src='https://apps.elfsight.com/p/platform.js', defer='')
+      .elfsight-app-152f6ed5-1062-4f25-9367-55b90529b66b
+        
+    section.section.is-flex-zeroed.lawn-design(data-stellar-background-ratio="0.5")
+      h2.title.has-text-white.is-size-1 Contact Us    
+    
+    section.section.contact-form
+      .container
+        .columns
+          .column.is-half.is-offset-one-quarter
+            //- h1.has-text-centered.has-text-weight-semibold.is-size-3
+            //-   | Contact Us
+            .field
+              label.label Name
+              .control.has-icons-left.has-icons-right
+                input.input(type='text' placeholder='Name')
+                span.icon.is-small.is-left
+                  i.fas.fa-user
+            .field
+              label.label Phone Number
+              .control.has-icons-left.has-icons-right
+                input.input(type='text' placeholder='Phone Number')
+                span.icon.is-small.is-left
+                  i.fas.fa-phone
+            .field
+              label.label Email
+              .control.has-icons-left.has-icons-right
+                input.input(type='email' placeholder='Email')
+                span.icon.is-small.is-left
+                  i.fas.fa-envelope
+            .field
+              label.label Message
+              .control
+                textarea.textarea
+            .field.is-grouped
+              .control
+                button.button.is-link Submit
+                
+    footer
+      .container.has-text-centered            
+        img(src='../images/mag-logo.png', alt='Logo')
+      h4.has-text-centered
+        | &copy; MAG Landscaping LLC 2018    
